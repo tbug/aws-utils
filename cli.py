@@ -192,7 +192,6 @@ def sshconfig(config):
 
         if start_idx and end_idx:
             new = current[:start_idx] + cfglines + current[end_idx+1:]
-            sys.exit(1)
             click.echo('patching config')
         else:
             new = current + cfglines 
