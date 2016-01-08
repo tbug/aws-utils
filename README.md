@@ -1,6 +1,8 @@
 # aws-utils
 
-You will need:
-
-- boto3 `pip install boto3`
-- click `pip install click`
+Clone and install
+```
+git clone https://github.com/tbug/aws-utils.git
+cd aws-utils
+pip install .
+```
