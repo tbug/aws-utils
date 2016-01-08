@@ -133,7 +133,7 @@ def identity_file_for_instance(instance):
     return "{0}/{1}.pem".format(credentials_path_prefix, instance.key_name)
 
 def generate_ssh_config():
-    template = u"""Host {name}
+    template = u"""Host {name} {hostname}
     HostName {hostname}
     user {user}
     IdentityFile {identity_file}
