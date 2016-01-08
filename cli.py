@@ -204,4 +204,5 @@ def sshconfig(config):
 
 
 if __name__ == '__main__':
+    print("You should not call this file directly")
     cli()
